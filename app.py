@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 import pickle
-st.title("Medical Diagnostic Prediction App ")
-st.markdown("Does the Person have Diabetes? ")
+st.title("Medical Diagnostic Prediction App ⚕️")
+st.markdown("Does the Person have Diabetes? ⚕️ ")
 
 # Step1 : load the trained model
 model=open('rfc.pickle', 'rb')
